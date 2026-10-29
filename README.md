@@ -238,11 +238,7 @@ Potential enhancements include:
 * Deploying the system to a cloud environment.
 * Improving dashboard filtering and business performance metrics.
 
-## Limitations
 
-This repository demonstrates a local development pipeline using a sample retail dataset.
-
-It is not presented as a production deployment. Production use would require additional security hardening, operational monitoring, access control, backup procedures, and deployment-specific configuration.
 
 ## Author
 
