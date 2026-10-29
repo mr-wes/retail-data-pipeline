@@ -1,0 +1,48 @@
+﻿# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python caches and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# Airflow logs
+logs/
+
+# Generated Spark output
+data/processed/
+
+# Backup and temporary files
+*.backup
+*.backup.*
+*.bak
+*backup*.yaml
+*backup*.yml
+*backup*.py
+*backup*.csv
+
+# Local virtual environments
+.venv/
+venv/
+env/
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Local pre-change backups
+*.before-env.*
+*.before-spark-env.*
